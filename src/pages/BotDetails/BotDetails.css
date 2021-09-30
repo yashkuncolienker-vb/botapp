@@ -40,7 +40,7 @@
   width: 130px;
 }
 .details-btn-container .cart-btn-container div {
-  min-width: 36px;
+  margin: 3px;
 }
 .details-btn-container .cart-btn-container button {
   height: 44px;
