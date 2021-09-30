@@ -1,0 +1,22 @@
+.cart-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74px;
+}
+.cart-btn-container > button {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0 5px;
+  line-height: 1;
+}
+.cart-btn-container > .plus {
+  color: white;
+  background-color: green;
+  border-color: green;
+}
+.cart-btn-container > .minus {
+  color: white;
+  background-color: red;
+  border-color: red;
+}

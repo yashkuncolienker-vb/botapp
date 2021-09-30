@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+  padding: 0 10rem;
+}
+nav h1 {
+  padding: 1rem 0;
+  border-bottom: 2px solid black;
+  margin-bottom: -2px;
+  font-size: 2rem;
+}
+nav h2 {
+  font-weight: 500;
+  align-self: end;
+  margin: 0 0 5px 15px;
+}
+nav button {
+  width: 60px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+nav a {
+  margin-left: auto;
+  align-self: center;
+}
+@media (max-width: 426px) {
+  html {
+    font-size: 15px;
+  }
+  nav h1 {
+    display: none;
+  }
+  nav {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px 30px !important;
+  }
+}
